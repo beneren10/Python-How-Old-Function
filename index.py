@@ -14,5 +14,6 @@ def how_old():
         when100 = ((2024 - userAge) + 100)
         print(f'Hello {userName}, you are {userAge} and you will turn 100 in {when100}')
 
-
+    else:
+        print("You are 100 and no need for a calculation dummy.")
 how_old()
